@@ -1,8 +1,8 @@
-var msg;
+//var msg;
 $( ".click" ).mousemove(function( event ) {
   var msg = "Handler for .mousemove() called at ";
-  x=event.pageX;
-  msg += event.pageX + ", " + event.pageY;
+ // x=event.pageX;
+  //msg += event.pageX + ", " + event.pageY;
 
  if(event.pageX>450){
 	 	if(event.pageX<550){
